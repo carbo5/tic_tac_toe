@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    width : 60%;
+}
+
+.tictactoeGrid{
+    margin:auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    background-color: #2196F3;
+}
+
+.tictactoeGrid div{
+    border: 1px solid black;
+}
