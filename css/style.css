@@ -15,3 +15,19 @@
 .tictactoeGrid div{
     border: 1px solid black;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#reset, #player_turn{
+    width : 300px;
+    margin:auto;
+}
